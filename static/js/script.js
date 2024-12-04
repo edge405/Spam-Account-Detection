@@ -51,6 +51,7 @@ function renderTable(containerId, data) {
     } else {
       th.textContent = header;
     }
+    // th.classList.add("table-dark");
     headerRow.appendChild(th);
   });
 
@@ -59,6 +60,12 @@ function renderTable(containerId, data) {
   // Add rows dynamically
   data.forEach((row) => {
     const tr = document.createElement("tr");
+
+    if (row.label === 0) {
+      tr.classList.add("table-success"); // Green for human rows
+    } else if (row.label === 1) {
+      tr.classList.add("table-danger"); // Red for bot rows
+    }
 
     headers.forEach((header) => {
       const td = document.createElement("td");
