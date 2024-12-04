@@ -1,0 +1,22 @@
+.table-container {
+  height: calc(20vh + 10%); /* Height between 20% and 30% of the viewport */
+  max-height: 30vh; /* Ensure height does not exceed 30% */
+  overflow-y: auto; /* Enable scrolling if content exceeds height */
+  border: 1px solid #ddd; /* Add border for visual clarity */
+  margin-bottom: 20px; /* Add spacing between tables */
+}
+.loading-spinner {
+  display: none; /* Initially hidden */
+  text-align: center;
+  margin: 20px 0;
+}
+.loading-spinner.active {
+  display: block;
+}
+
+#container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0px;
+}
