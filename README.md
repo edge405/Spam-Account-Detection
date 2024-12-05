@@ -15,7 +15,6 @@ This application demonstrates how to detect spam accounts in social networks usi
 2. [Usage](#usage)
 3. [Technologies Used](#technologies-used)
 4. [File Structure](#file-structure)
-5. [License](#license)
 
 ## Installation
 
