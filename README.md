@@ -1,4 +1,4 @@
-e# Spam Account Detection in Social Networks Using DBSCAN Clustering Algorithm
+# Spam Account Detection in Social Networks Using DBSCAN Clustering Algorithm
 
 This application demonstrates how to detect spam accounts in social networks using the DBSCAN (Density-Based Spatial Clustering of Applications with Noise) clustering algorithm. It leverages various features from user profiles, such as followers count, friends count, and statuses count, to classify accounts as "Human" or "Bot" (Spam).
 
@@ -76,7 +76,7 @@ To run the application locally, follow these steps:
 - **Frontend**:
   - **HTML/CSS**: For basic structure and styling.
   - **JavaScript**: For handling user interactions (e.g., button clicks to generate data).
-  - **Bootstrap**: For responsive and clean table designs.
+  - **Bootstrap**: For responsive and clean table designs. To simplify the process of styling.
 
 ## File Structure
 
